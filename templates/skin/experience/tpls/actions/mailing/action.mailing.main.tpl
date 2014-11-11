@@ -34,6 +34,8 @@
       			</div>
       		</div>
       		
+      		<div class="note"></div>
+      		
       		<div class="form-group">
       			<textarea name="talk_text" id="talk_text" rows="12" class="form-control js-editor-wysiwyg js-editor-markitup">{$_aRequest.talk_text}</textarea>
       		</div>
