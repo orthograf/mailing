@@ -58,7 +58,7 @@ return array(
     'mailing_error_unable_to_start' => 'Не удалось запустить рассылку',
 
     'ml_send_talk' => 'Создавать ЛС',
-    'settings_tuning_notice_administration' => 'Получать рассылку от администрации',
+    'settings_tuning_notice_administration' => 'получать рассылку от администрации',
     
     'lsdigest_usub_noparams' => 'E-mail или хэш не найден',
     'lsdigest_usub_nouser' => 'Пользователь по параметрам не найден',
