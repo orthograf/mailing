@@ -43,7 +43,7 @@ class PluginMailing extends Plugin
      */
     public function Activate()
     {
-        $results = $this->ExportSQL(dirname(__FILE__) . '/activate.sql');
+        $results = $this->ExportSQL(dirname(__FILE__) . 'sql/activate.sql');
         $this->Cache_Clean();
         return $results['result'];
     }
@@ -55,7 +55,7 @@ class PluginMailing extends Plugin
      */
     public function Deactivate()
     {
-        $results = $this->ExportSQL(dirname(__FILE__) . '/deactivate.sql');
+        $results = $this->ExportSQL(dirname(__FILE__) . 'sql/deactivate.sql');
         $this->Cache_Clean();
         return $results['result'];
     }
