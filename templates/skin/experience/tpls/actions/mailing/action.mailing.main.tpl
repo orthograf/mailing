@@ -57,12 +57,12 @@
                   <input id="talk" name="talk" type="checkbox" value="1" {if ($_aRequest.send_talk)}checked="checked"{/if}/> — {$aLang.plugin.mailing.ml_send_talk}
               </div>
       
-              <div style="margin-top:15px;">
-            		<input class="btn btn-blue btn-big corner-no" type="submit" name="submit" value="{$aLang.talk_create_submit}" />
-                <button type="submit" class="btn btn-light btn-big corner-no" name="submit_preview" onclick="jQuery('#text_preview').parent().show(); ls.tools.textPreview('#talk_text',false); return false;">{$aLang.topic_create_submit_preview}</button>
-          		</div>
-          </form>
-      </div>
+	    <div style="margin-top:15px;">
+	        <input class="btn btn-blue btn-big corner-no" type="submit" name="submit" value="{$aLang.talk_create_submit}" />
+		<input type="submit" class="btn btn-light btn-big corner-no" name="submit_preview" onclick="jQuery('#text_preview').parent().show(); ls.tools.textPreview('#talk_text',false); return false;" value="{$aLang.topic_create_submit_preview}" />
+	    </div>
+        </form>
+     </div>
   </div>
 </div>
 
