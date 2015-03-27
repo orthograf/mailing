@@ -33,6 +33,9 @@ class PluginMailing extends Plugin
             ),
         'module' => array(
             'ModuleUser' => '_ModuleUser',
+        ),
+        'entity' => array(
+            'ModuleUser_EntityUser' => '_ModuleUser_EntityUser',
         )
     );
 
