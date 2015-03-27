@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
+    <id>mailing</id>
     <name>
         <lang name="default">Mailing</lang>
         <lang name="russian">Массовая рассылка</lang>
@@ -10,6 +11,7 @@
     </author>
     <homepage>http://stfalcon.com</homepage>
     <version>0.4.0</version>
+    <dirname>mailing</dirname>
     <requires>
         <alto>1.0</alto>
     </requires>
